@@ -45,3 +45,9 @@ group :development do
   gem 'spring'
 end
 
+group :production do
+  # Call 'byebug' anywhere in the code to stop execution and get a debugger console
+  gem 'rails_12factor'
+  gem 'pg'
+end
+ruby '2.3.0'
